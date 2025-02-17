@@ -20,4 +20,12 @@ public class ArrayGenerico<T> {
         }
         return s.toString();
     }
+    public int cerca(T t) {
+        for (int i = 0; i < lista.length; i++) {
+            if (lista[i] != null && lista[i].equals(t)) {
+                return i;
+            }
+        }
+        return -1;
+    }
 }

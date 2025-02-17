@@ -10,5 +10,7 @@ public class Main {
         mobili.add(new Mobile(3.5, 2.2));
         System.out.println(infissi.stampa());
         System.out.println(mobili.stampa());
+        System.out.println(infissi.cerca(new Infisso("legno", 1.2, 1.5)));
+        System.out.println(mobili.cerca(new Mobile(3.5, 2.2)));
     }
 }
