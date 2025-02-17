@@ -22,7 +22,7 @@ public class Mobile {
 
     @Override
     public String toString() {
-        return "Mobile [prezzo=" + prezzo + ", peso=" + peso + "]";
+        return "Mobile [prezzo=" + prezzo + ", peso=" + peso + "]\n";
     }
     @Override
     public boolean equals(Object o) {

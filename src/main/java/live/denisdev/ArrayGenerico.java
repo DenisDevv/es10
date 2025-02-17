@@ -15,7 +15,7 @@ public class ArrayGenerico<T> {
         StringBuilder s = new StringBuilder();
         for (T t : lista) {
             if (t != null) {
-                s.append(t).append(" ");
+                s.append(t);
             }
         }
         return s.toString();

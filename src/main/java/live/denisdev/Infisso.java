@@ -35,7 +35,7 @@ public class Infisso {
 
     @Override
     public String toString() {
-        return "Infisso [altezza=" + altezza + ", larghezza=" + larghezza + ", materiale=" + materiale + "]";
+        return "Infisso [altezza=" + altezza + ", larghezza=" + larghezza + ", materiale=" + materiale + "]\n";
     }
     @Override
     public boolean equals(Object o) {
